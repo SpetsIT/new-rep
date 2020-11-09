@@ -1,5 +1,107 @@
-body {
-    background-color: teal;
-    color: #fff;
+:root {
+    --title-text-color: #212121;
+    --p-text-color: #757575;
+    --highlight-color: #f3d421;
+}
 
+.logo-first {
+    color: var(--highlight-color);
+}
+.link {
+    text-decoration: none;
+}
+.site-nav {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--highlight-color);
+}
+.logo-sec {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19em;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+  .main {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36em;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #2F303A;
+}
+.link-btn {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.9em;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: var(--highlight-color);
+    text-decoration: none;
+}
+.item-list-header {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+.desc {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71em;
+    letter-spacing: 0.03em;
+    color: var(--p-text-color);
+}
+.subtitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17em;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+.list {
+    list-style: none;
+}
+.footer {
+    /* width: 1600px;
+    height: 150px;
+    left: 0px;
+    top: 1000px; */
+    background: #484fa0;
+}
+.logo-sec {
+    color: rgb(0, 0, 0);
+}
+.adress {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.contact {
+    color:black;
 }
