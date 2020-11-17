@@ -1,7 +1,7 @@
 :root {
     --title-text-color: #212121;
-    --p-text-color: #757575;
-    --highlight-color: #f3d421;
+    --p-text-color: #945959;
+    --highlight-color: #db21f3;
 }
 
 .logo-first {
@@ -88,7 +88,7 @@
     height: 150px;
     left: 0px;
     top: 1000px; */
-    background: #484fa0;
+    background: #2F303A;
 }
 .logo-sec {
     color: rgb(0, 0, 0);
@@ -108,4 +108,12 @@
 .cl {
     margin: 0;
     padding: 90px;
+}
+.desc-box {
+    color: rgb(206, 32, 206);
+    width: 270px;
+    height: 75px;
+    left: 515px;
+    top: 800px
+    
 }
