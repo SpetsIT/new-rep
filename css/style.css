@@ -109,11 +109,18 @@
     margin: 0;
     padding: 90px;
 }
-.desc-box {
-    color: rgb(206, 32, 206);
-    width: 270px;
-    height: 75px;
-    left: 515px;
-    top: 800px
-    
+.link-btn {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: skyblue;
+    color: white;
+}
+.con {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 }
