@@ -1,24 +1,17 @@
 :root {
-    --title-text-color: #212121;
-    --p-text-color: #945959;
-    --highlight-color: #db21f3;
+    --title-text-color:black;
+    --p-text-color:rgb(127, 118, 255);
+    --highlight-color: #21dbf3;
 }
-
+/*отключение точек в списке*/
+.list {
+    list-style: none;
+}
+/*цвет первой части логотипа сайта*/
 .logo-first {
     color: var(--highlight-color);
 }
-.link {
-    text-decoration: none;
-}
-.site-nav {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--highlight-color);
-}
+/*стиль второй части логотипа сайта*/
 .logo-sec {
     font-family: Raleway;
     font-style: normal;
@@ -29,7 +22,21 @@
     color: var(--title-text-color);
     text-decoration: none;
 }
-  .main {
+/*стиль списка шапки сайта*/
+.more {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--highlight-color);
+}
+/*стиль секции заказать услугу*/
+.section {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
@@ -41,7 +48,16 @@
     color: #FFFFFF;
     background-color: #2F303A;
 }
+/*стиль конкретно кнопки заказать услугу*/
 .link-btn {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: skyblue;
+    color: white;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -52,7 +68,8 @@
     background-color: var(--highlight-color);
     text-decoration: none;
 }
-.item-list-header {
+/*стиль секции особенности*/
+.text {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -62,6 +79,7 @@
     text-transform: uppercase;
     color: var(--title-text-color);
 }
+/*стиль описания секции особенности*/
 .desc {
     font-family: Roboto;
     font-style: normal;
@@ -71,6 +89,7 @@
     letter-spacing: 0.03em;
     color: var(--p-text-color);
 }
+/*стиль подзаголовка секций специализация и наша команда*/
 .subtitle {
     font-family: Roboto;
     font-style: normal;
@@ -80,9 +99,6 @@
     letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
-.list {
-    list-style: none;
-}
 .footer {
     /* width: 1600px;
     height: 150px;
@@ -90,10 +106,12 @@
     top: 1000px; */
     background: #2F303A;
 }
+/*цвет первой части логотипа в футере*/
 .logo-sec {
     color: rgb(0, 0, 0);
 }
-.adress {
+/*стиль навигации (телефон,адрес) в футере*/
+.nav-text {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -101,26 +119,4 @@
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-}
-.contact {
-    color:black;
-}
-.cl {
-    margin: 0;
-    padding: 90px;
-}
-.link-btn {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px 40px;
-    border: 2px solid black;
-    border-radius: 5px;
-    background-color: skyblue;
-    color: white;
-}
-.con {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
 }
