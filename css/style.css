@@ -1,3 +1,12 @@
+html { box-sizing: border-box;}
+    
+    *,
+    *::before,
+    *::after {
+        box-sizing: inherit;
+    }
+
+
 :root {
     --title-text-color:black;
     --p-text-color:rgb(127, 118, 255);
@@ -35,8 +44,29 @@
     letter-spacing: 0.02em;
     color: var(--highlight-color);
 }
+/*слоган эффективные услуги для вашего бизнесса*/
+.slogan {
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
 /*стиль секции заказать услугу*/
 .section {
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
@@ -50,6 +80,10 @@
 }
 /*стиль конкретно кнопки заказать услугу*/
 .link-btn {
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
@@ -57,17 +91,42 @@
     border: 2px solid black;
     border-radius: 5px;
     background-color: skyblue;
+
+    width: 136px;
+    height: 30px;
+    left: 732px;
+    top: 440px;
     color: white;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 1.9em;
+    line-height: 30px;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background-color: var(--highlight-color);
     text-decoration: none;
 }
+/*неудачная попытка сделать кнопку просто чтобы не терять размеры оставлю это здесь*/
+.btn {
+    width: 136px;
+    height: 30px;
+    left: 732px;
+    top: 440px;
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: var(--highlight-color);
+    text-decoration: none;
+
+}
+
+
 /*стиль секции особенности*/
 .text {
     font-family: Roboto;
