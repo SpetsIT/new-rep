@@ -15,6 +15,27 @@
 .list {
     list-style: none;
 }
+<<<<<<< Updated upstream
+=======
+.nav {
+    margin-right: 50px;
+    display: flex;
+    display: inline-block;
+}
+.nav .item:last-child {
+    margin-right: 0px;
+} 
+
+
+.site-nav {
+    display: flex;
+}
+.nav-link {
+    margin-right: 50px;
+    display: flex;
+    display: inline-block;
+}
+>>>>>>> Stashed changes
 /*цвет первой части логотипа сайта*/
 .logo-first {
     color: var(--highlight-color);
@@ -115,6 +136,10 @@
 }
 /*стиль подзаголовка секций специализация и наша команда*/
 .subtitle {
+<<<<<<< Updated upstream
+=======
+    text-align: center;
+>>>>>>> Stashed changes
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -143,4 +168,8 @@
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes
